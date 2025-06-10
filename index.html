@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container" id="page-container">
+        <div class="todo-list" id="todo-list">
+            <div id="addTask">
+                <button class="add-task" id="addTaskBtn">Click to add new task</button>
+                <button class="remove-all" id="clearTaskBtn">Remove All Tasks</button>
+            </div>
+            
+            <!-- Use JavaScript to add and remove tasks from this list -->
+
+            <!-- Radio button on the left hand side of each task -->
+
+            <!-- Move item to completed task list when selected -->
+
+            <!-- Move item back to todo task list if unselected -->
+        </div>
+        <div class="completed-tasks">
+
+        </div>
+        <div class="task-form">
+            <button id="closeButton">&times;</button>
+            <form id="task-input">
+                <div id="inputs">
+                <input type="text" id="task-name" placeholder="Task Name" required>
+                <input type="text" id="task-desc" placeholder="Task Description" require>
+                <input type="number" id="time-spent" placeholder="Repetitions">
+                </div>
+                <button id="saveButton" type="submit">Save Task</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

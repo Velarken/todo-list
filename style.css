@@ -1,0 +1,48 @@
+.page-container {
+    display:flex;
+    flex-direction: column;
+    width:90vw;
+    align-items: center;
+}
+.todo-list {
+    display:flex;
+    flex-direction: column;
+    border:3px solid maroon;
+    border-radius: 12px;
+    width:90vw;
+    align-items: center;
+    justify-content: center;
+}
+.completed-tasks {
+    color:grey;
+}
+#task-input {
+    display:none;
+}
+#task-input.active {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#task-name,#task-desc,#time-spent {
+    flex:1;
+    margin:10px;
+    border:2px solid maroon;
+    border-radius: 8px;;
+}
+.task-container {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+/* 
+    Set up task list as a grid to align with labels for:
+        - Completed / Uncompleted Button
+        - Task Name
+        - Task Descriptions
+        - Repetitions / Time to Spend
+
+*/
