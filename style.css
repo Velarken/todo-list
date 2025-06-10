@@ -1,3 +1,8 @@
+:root {
+    --border-color:rgb(0,0,0);
+    --task-background:rgb(0,0,0);
+}
+
 .page-container {
     display:flex;
     flex-direction: column;
@@ -15,6 +20,39 @@
 }
 .completed-tasks {
     color:grey;
+}
+.task {
+    display:flex;
+    margin:10px;
+    width:90%;
+    border:3px solid maroon;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    flex:1;
+    font-size:16px;
+    text-align: center;
+}
+.reps{
+    flex:1;
+    text-align: center;
+} 
+#toggle-visible {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:25px;
+    width:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.description {
+    flex:3;
+    text-align: center;
+}
+#addTask {
+    border:none;
 }
 #task-input {
     display:none;
